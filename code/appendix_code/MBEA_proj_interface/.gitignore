@@ -1,0 +1,10 @@
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+Makefile
+MBEA_proj_interface
+*.data
+.vscode/
+*.dat
+*_mmbea
+*.zip

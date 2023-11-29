@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mbbp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/source code/mbbp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/source code/mbbp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/source code/mbbp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbbp">
+				<Option output="/mnt/d/source code/mbbp/mbbp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/source code/mbbp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 mbbp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbbp/fast">
+				<Option output="/mnt/d/source code/mbbp/mbbp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/source code/mbbp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 mbbp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/d/source\ code/mbbp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/source code/mbbp/LCUtility.cpp">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/LCUtility.h">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/basicEnu.cpp">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/basicEnu.h">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/bgraph.cpp">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/bgraph.h">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/denseMBB.cpp">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/denseMBB.h">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/graph.cpp">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/graph.h">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/main.cpp">
+			<Option target="mbbp"/>
+		</Unit>
+		<Unit filename="/mnt/d/source code/mbbp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

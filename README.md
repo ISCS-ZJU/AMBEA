@@ -21,7 +21,7 @@ and present the Aggressive Maximal Biclique Enumeration Algorithm (AMBEA).
 Experimental results show that
 AMBEA is 1.15X to 5.32X faster than its closest competitor
 and exhibits better scalability and parallelization capabilities on larger bipartite graphs.
-# Try out GMBE
+# Try out AMBEA
 ## Software Dependencies
 - GNU Make 4.2.1
 - CMake 3.22.0

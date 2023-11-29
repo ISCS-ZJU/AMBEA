@@ -56,7 +56,7 @@ void ExpFinderTest(char *graph_name, int finder_sel, int thread_num, char *fn, i
      std::swap(lb, rb);
   }
   AmbeaFinder *tmp_finder;
-  G->PrintProfile();
+  //G->PrintProfile();
   BicliqueFinder *finder;
   switch (finder_sel) {
     // baseline approach

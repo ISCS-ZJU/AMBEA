@@ -96,9 +96,12 @@ int main(int argc, char * argv[]) {
     //alg2.adv_mbeStart();
 
     double memory = GetMemory();
-    printf("ooMBEAFinder, %lf, %lf, %d, %d, %u, %lf\n", alg2.exe_time_, memory,
-           alg2.nomb, alg2.processing_nodes, alg2.max_level_,
-           (double)alg2.level_accumulation_ / alg2.nomb);
+    printf("ooMBEAFinder, %lf, %lf, %d, %d\n", alg2.exe_time_, memory,
+           alg2.nomb, alg2.processing_nodes
+           );
+    //printf("ooMBEAFinder, %lf, %lf, %d, %d, %u, %lf\n", alg2.exe_time_, memory,
+    //       alg2.nomb, alg2.processing_nodes, alg2.max_level_,
+    //       (double)alg2.level_accumulation_ / alg2.nomb);
 
     // PrintMemory();
     // cout<<"processing_nodes: "<<alg2.processing_nodes<<endl;

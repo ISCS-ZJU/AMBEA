@@ -414,7 +414,7 @@ PmbeFinder::PmbeFinder(BiGraph *graph_in, const char *name)
     : BicliqueFinder(graph_in, name) {
   double start = get_cur_time();
   pgraph_ = new PmbeBiGraph(*graph_in);
-  printf("RevOrder and CDAG construction time: %lfs\n", get_cur_time() - start);
+  //printf("RevOrder and CDAG construction time: %lfs\n", get_cur_time() - start);
 }
 
 void PmbeFinder::Execute(int min_l_size, int min_r_size) {

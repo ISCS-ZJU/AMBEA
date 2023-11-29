@@ -13,7 +13,7 @@
 #include <tbb/global_control.h>
 #include <unordered_map>
 
-#define COMPUTE_LEVEL
+//#define COMPUTE_LEVEL
 
 struct CExtNode {
   int r_id;

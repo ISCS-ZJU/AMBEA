@@ -27,13 +27,17 @@ and exhibits better scalability and parallelization capabilities on larger bipar
 - CMake 3.22.0
 - GCC/G++ 10.3.0
 
+## Downloading
+To download this repository, you can run the following commands.
+```
+git clone https://github.com/kynehc/clone_anonymous_github.git
+cd clone_anonymous_github
+python download.py --url https://anonymous.4open.science/r/MMBEA-public-D206/ --dir [target_path]
+```
+
 ## Compiling
 Using the following commands, one can easily compile the AMBEA and baselines. Then you will find the executable files under `bin/MBE_ALL`.
 ```
-# Get source code
-git clone [repository_url]
-cd MMBEA-public
-
 bash ./scripts/compile-ALL.sh
 ```
 

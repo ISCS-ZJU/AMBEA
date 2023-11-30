@@ -28,7 +28,7 @@ then
   cd ../../../
 fi
 
-dataset_names=(Unicode UCforum Writers MovieLens Teams ActorMovies Wikipedia EuAll)
+dataset_names=(Unicode UCforum Writers MovieLens Teams ActorMovies Wikipedia)
 dataset_num=${#dataset_names[@]}
 
 

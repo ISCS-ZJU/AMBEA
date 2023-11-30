@@ -26,6 +26,7 @@ and exhibits better scalability and parallelization capabilities on larger bipar
 - GNU Make 4.2.1
 - CMake 3.22.0
 - GCC/G++ 10.3.0
+- Python 3.8.10
 
 ## Downloading
 To download this repository, you can run the following commands.

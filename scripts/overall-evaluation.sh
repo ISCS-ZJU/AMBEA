@@ -43,7 +43,7 @@ do
   dataset_name=${dataset_names[i]}
   printf "%s \n" "$dataset_name" >> $result_file
   cur_time=$(date "+%Y-%m-%d %H:%M:%S")
-  printf "%s %s %s %s %s\n" "Dataset," "Time(s)," "Memory(MB)," "Maximal Biclique," "Check Nodes" >> $result_file 
+  printf "%s %s %s %s %s\n" "Finder name," "Time(s)," "Memory(MB)," "Maximal Biclique," "Check Nodes" >> $result_file 
   echo $cur_time "Running MBEA on dataset" ${dataset_name} | tee -a $progress_file
   ./bin/MBE_ALL -i ./datasets/${dataset_name}.adj -s 1 >> ${result_file}  
   cur_time=$(date "+%Y-%m-%d %H:%M:%S")

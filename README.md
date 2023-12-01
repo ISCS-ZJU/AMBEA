@@ -31,9 +31,8 @@ and exhibits better scalability and parallelization capabilities on larger bipar
 ## Downloading
 To download this repository, you can run the following commands.
 ```
-git clone https://github.com/kynehc/clone_anonymous_github.git
-cd clone_anonymous_github
-python download.py --url https://anonymous.4open.science/r/MMBEA-public-D206/ --dir [target_path]
+wget https://anonymous.4open.science/r/MMBEA-public-D206/zipfile/MMBEA-public.zip
+unzip MMBEA-public.zip
 ```
 
 ## Compiling

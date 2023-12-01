@@ -38,7 +38,7 @@ unzip AMBEA-public.zip
 ## Compiling
 Using the following commands, one can easily compile the AMBEA and baselines. Then you will find the executable files under `bin/MBE_ALL`.
 ```
-bash ./scripts/compile-ALL.sh
+bash ./scripts/compile-MBE.sh
 ```
 
 ## Running
